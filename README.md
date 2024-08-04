@@ -4,5 +4,5 @@ Minimal python numba implementation of the DAMP algorithm, introduced in the KDD
 ## Requirements
 - numpy
 - numba
-- Rocket-FFT
-Required for FFT and IFFT to work in numba.njit
+- rocket-fft
+-- Required for FFT and IFFT to work in numba.njit
