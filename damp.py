@@ -112,7 +112,6 @@ def moving_mean_sigma(x, m):
     result_mean = np.empty(n - m + 1, dtype=x.dtype)
     result_std = np.empty(n - m + 1, dtype=x.dtype)
     
-    # 最初のウィンドウを計算
     window = x[:m]
     sum_x = np.sum(window)
     sum_x_sq = np.sum(window**2)
@@ -120,9 +119,7 @@ def moving_mean_sigma(x, m):
     result_mean[0] = sum_x / m
     result_std[0] = np.sqrt((sum_x_sq / m) - (result_mean[0]**2))
     
-    # 残りのウィンドウを計算
     for i in range(1, n - m + 1):
-        # 新しい要素を加え、古い要素を削除
         sum_x += x[i+m-1] - x[i-1]
         sum_x_sq += x[i+m-1]**2 - x[i-1]**2
         
