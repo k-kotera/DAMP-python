@@ -7,7 +7,7 @@ Lu, Yue, et al. "Matrix profile XXIV: scaling time series anomaly detection to t
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from damp import *
+from damp import DAMP
 
 TS = np.loadtxt('UCR_Anomaly_FullData/151_UCR_Anomaly_MesoplodonDensirostris_10000_19280_19440.txt')
 w_size = 200
