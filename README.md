@@ -28,3 +28,9 @@ plt.legend()
 - numba
 - rocket-fft
   - Required for FFT and IFFT to work in numba.njit
+ 
+## Links
+Official MATLAB Code
+https://sites.google.com/view/discord-aware-matrix-profile/
+Other DAMP Implementation
+https://github.com/sihohan/DAMP
