@@ -22,7 +22,7 @@ plt.axvspan(top_1_discord_start_point,
              top_1_discord_start_point+w_size, facecolor='r', alpha=0.2,label="anomaly")
 plt.legend()
 ```
-
+![クジラ](https://github.com/user-attachments/assets/33a85f8d-df96-4327-a936-d84e09e5d264)
 ## Requirements
 - numpy
 - numba
