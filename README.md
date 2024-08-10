@@ -30,7 +30,7 @@ plt.legend()
   - Required for FFT and IFFT to work in numba.njit
  
 ## Links
-Official MATLAB Code
+- Official MATLAB Code: 
 https://sites.google.com/view/discord-aware-matrix-profile/
-Other DAMP Implementation
+- Other DAMP Python Implementation: 
 https://github.com/sihohan/DAMP
